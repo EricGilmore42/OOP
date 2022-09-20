@@ -6,3 +6,11 @@ codes = {'A' : '%', 'a' : '9', 'B' : '@', 'b' : '8', 'C' : '#', 'c' : '7', 'D' :
 
 infile = open('info_security.txt','r')
 outfile = open('encrypted.txt', 'w')
+encrypted=infile.read()
+
+for x,y in codes.items():
+    search=x
+    replace = y
+
+    encrypted=encrypted.replace(search,replace)
+outfile.write(encrypted)
