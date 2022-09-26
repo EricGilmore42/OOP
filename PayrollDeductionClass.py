@@ -22,10 +22,10 @@ class payroll:
         return self.__description
 
     def get_date(self):
-        self.__date
+        return self.__date
 
     def get_amt(self):
-        self.__Amt
+        return self.__Amt
 
     def get_empID(self):
-        self.__empID    
+        return self.__empID    
