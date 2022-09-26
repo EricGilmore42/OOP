@@ -11,3 +11,4 @@ CoinClass.py
 InsectClass.py
 InsectFlight.py
 passobject.py
+__pycache__
