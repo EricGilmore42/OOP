@@ -27,6 +27,6 @@ def main():
     print('Name: ',emp.get_name())
     print('ID Number: ',emp.get_id())
     print('Department: ',emp.get_department())
-    print('Gross Pay: ',emp.get_salary())
+    print('Gross Pay: ','$' + str(format(emp.get_salary(),',.2f')))
     print('Net Pay: ','$'+str(format(netpay,',.2f')))
 main()
